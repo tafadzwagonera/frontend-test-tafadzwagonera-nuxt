@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-display: swap;
+    font-family: 'CSClarity-Bold';
+    src: url(./fonts/cs-clarity-bold.ttf) format('ttf') 
+      url(./fonts/cs-clarity-bold.woff2) format('woff2'),
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'CSClarity-Regular';
+    src: url(./fonts/cs-clarity-regular.ttf) format('ttf') 
+      url(./fonts/cs-clarity-regular.woff2) format('woff2'),
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'CSClarity-Thin';
+    src: url(./fonts/cs-clarity-thin.ttf) format('ttf') 
+      url(./fonts/cs-clarity-thin.woff2) format('woff2'),
+  }
+
+  body {
+    @apply bg-light-grayish-blue;
+  }
+}
